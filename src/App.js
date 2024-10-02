@@ -11,14 +11,11 @@ function App() {
       <div style={{display: "flex", justifyContent: "center"}}>
         <div style={{ display: "flex", width: "60%", justifyContent: "center" }}>
           <div style={{ width: "70%" }}>
+            <Post title="title one" body="body one " />
+            <Post title="title two" body="body two "/>
+            <Post title="title three" body="body three " />
             <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+        
           </div>
 
           <div style={{ width: "30%", marginTop: "25px" }}>
